@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { customToast, formatDateString } from '../../lib/utils'
 import Skeleton from 'react-loading-skeleton'
 import Reviews from '../molecules/Reviews'
+import { GeniusMusicPlayer } from '../molecules/GeniusMusicPlayer'
 
 export type InfoPageTemplateProps = {
     isLoading: boolean
@@ -68,6 +69,8 @@ export const InfoPageTemplate = (props: InfoPageTemplateProps) => {
                           ]
                 }
             />
+
+            {props.type === 'song' && <GeniusMusicPlayer id={props.id} />}
             <section className='flex items-center justify-center w-screen sm:p-12 lg:py-16 lg:px-32'>
                 <article className='md:grid md:grid-cols-4 w-full max-w-4xl gap-10 bg-white sm:rounded-xl shadow p-5 pt-10 xs:p-10'>
                     <header className='flex flex-col xs:flex-row gap-5 justify-start xs:items-center md:block md:col-span-1 xs:mb-5 md:m-0'>
