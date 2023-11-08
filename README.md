@@ -4,7 +4,7 @@
 
 From the root of the project, run:
 
-1. _cd backend_
+1. \_cd backend
 2. _npm i_
 3. _npm run dev_
 
