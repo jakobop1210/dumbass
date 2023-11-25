@@ -13,6 +13,11 @@ From the root of the project, run:
 3. `pnpm i`
 4. `pnpm run dev`
 
+If you are having any trouble installing pnpm, you can try one of these commands:
+
+- Without node: `npm install -g @pnpm/exe`
+- Using homebrew: `brew install pnpm`
+
 ## Documentation
 
 ### Dataset
