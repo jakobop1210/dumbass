@@ -4,14 +4,14 @@ This project is divided into a [frontend](frontend/README.md) directory, and a [
 
 ## How to run the website
 
-First make sure you are connected to the NTNU VPN.
-
+First make sure you are connected to the NTNU VPN, and have installed node and npm.
 
 From the root of the project, run:
 
-1. _cd frontend_
-2. _npm i_
-3. _npm run dev_
+1. `npm install -g pnpm`
+2. `cd frontend`
+3. `pnpm i`
+4. `pnpm run dev`
 
 ## Documentation
 
