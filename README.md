@@ -8,8 +8,8 @@ First make sure you are connected to the NTNU VPN, and have installed node and n
 
 From the root of the project, run:
 
-1. `npm install -g pnpm`
-2. `cd frontend`
+1. `cd frontend`
+2. `npm install -g pnpm`
 3. `pnpm i`
 4. `pnpm run dev`
 
